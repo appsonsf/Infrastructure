@@ -5,7 +5,7 @@
                      xmlns:xsd="http://www.w3.org/2001/XMLSchema"
                      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
   <Parameters>
-    <Parameter Name="Minio_InstanceCount" DefaultValue="-1" />
+    <Parameter Name="Minio_InstanceCount" DefaultValue="1" />
     <Parameter Name="Minio_AccessKey" DefaultValue="A9D5AK5B8KJPVNHGNEZ2" />
     <Parameter Name="Minio_SecretKey" DefaultValue="nfiCNF3R0be3w8UD9xcAZlcJq4cYp3y4eT87WO0g" />
     <Parameter Name="Minio_Mode" DefaultValue="1" />
