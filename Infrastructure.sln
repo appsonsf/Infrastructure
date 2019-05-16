@@ -13,6 +13,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution 
 		README.md = README.md
 	EndProjectSection
 EndProject
+Project("{A07B5EB6-E848-4116-A8D0-A826331D98C6}") = "TraefikSfApp", "TraefikSfApp\TraefikSfApp.sfproj", "{45A9ADB0-20A2-4D36-9C0A-483E9098506D}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -25,6 +27,12 @@ Global
 		{1C6522D7-85E4-4065-A54C-72BD25D9B5C7}.Release|x64.ActiveCfg = Release|x64
 		{1C6522D7-85E4-4065-A54C-72BD25D9B5C7}.Release|x64.Build.0 = Release|x64
 		{1C6522D7-85E4-4065-A54C-72BD25D9B5C7}.Release|x64.Deploy.0 = Release|x64
+		{45A9ADB0-20A2-4D36-9C0A-483E9098506D}.Debug|x64.ActiveCfg = Debug|x64
+		{45A9ADB0-20A2-4D36-9C0A-483E9098506D}.Debug|x64.Build.0 = Debug|x64
+		{45A9ADB0-20A2-4D36-9C0A-483E9098506D}.Debug|x64.Deploy.0 = Debug|x64
+		{45A9ADB0-20A2-4D36-9C0A-483E9098506D}.Release|x64.ActiveCfg = Release|x64
+		{45A9ADB0-20A2-4D36-9C0A-483E9098506D}.Release|x64.Build.0 = Release|x64
+		{45A9ADB0-20A2-4D36-9C0A-483E9098506D}.Release|x64.Deploy.0 = Release|x64
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
