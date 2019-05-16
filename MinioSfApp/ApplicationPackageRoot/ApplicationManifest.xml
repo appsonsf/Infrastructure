@@ -24,7 +24,7 @@
       <EnvironmentVariable Name="MINIO_STORAGE" Value="[Minio_Storage]" />
     </EnvironmentOverrides>
     <Policies>
-      <RunAsPolicy CodePackageRef="Code" UserRef="LocalSystem" EntryPointType="All"/>
+      <RunAsPolicy CodePackageRef="Code" UserRef="AdminUser" EntryPointType="All" />
     </Policies>
   </ServiceManifestImport>
   <DefaultServices>
@@ -41,7 +41,11 @@
   </DefaultServices>
   <Principals>
     <Users>
-      <User Name="LocalSystem" AccountType="LocalSystem" />
+      <User Name="AdminUser">
+        <MemberOf>
+          <SystemGroup Name="Administrators" />
+        </MemberOf>
+      </User>
     </Users>
   </Principals>
 </ApplicationManifest>
