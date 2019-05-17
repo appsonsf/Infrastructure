@@ -37,10 +37,17 @@ defaultEntryPoints = ["http", "https"]
 # Optional
 # Default:
 [entryPoints]
-[entryPoints.http]
-address = ":8000"
-[entryPoints.traefik]
-address = ":8080"
+ [entryPoints.http]
+ address = ":8000"
+ 
+ [entryPoints.traefik]
+ address = ":8080"
+
+[ping]
+entryPoint = "http"
+
+[lifeCycle]
+requestAcceptGraceTimeout = "10s"
 
 # Enable access logs
 # By default it will write to stdout and produce logs in the textual
