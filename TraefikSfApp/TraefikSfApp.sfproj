@@ -39,6 +39,7 @@
     <Content Include="ApplicationParameters\Cloud.xml" />
     <Content Include="packages.config" />
     <Content Include="PublishProfiles\Cloud.xml" />
+    <Content Include="README.md" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="ApplicationPackageRoot\TraefikServicePkg\Code\certs\" />
