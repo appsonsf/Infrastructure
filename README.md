@@ -3,3 +3,4 @@
 Includes:
 
 - [Minio](MinioSfApp/README.md)
+- [Traefik](TraefikSfApp/README.md)
