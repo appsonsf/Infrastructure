@@ -1,0 +1,81 @@
+{
+    "$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+    "contentVersion": "1.0.0.0",
+    "parameters": {
+        "clusterName": {
+            "value": "appsonsf"
+        },
+        "clusterLocation": {
+            "value": "chinaeast2"
+        },
+        "computeLocation": {
+            "value": "chinaeast2"
+        },
+        "adminUserName": {
+            "value": "zyg"
+        },
+        "adminPassword": {
+            "value": "[ChangeToYourPassword]"
+        },
+        "nicName": {
+            "value": "NIC-appsonsf"
+        },
+        "publicIPAddressName": {
+            "value": "appsonsf-PubIP"
+        },
+        "dnsName": {
+            "value": "appsonsf"
+        },
+        "virtualNetworkName": {
+            "value": "VNet-appsonsf"
+        },
+        "lbName": {
+            "value": "LB-appsonsf"
+        },
+        "lbIPName": {
+            "value": "LBIP-appsonsf"
+        },
+        "applicationDiagnosticsStorageAccountName": {
+            "value": "sfdgappsonsf7872"
+        },
+        "supportLogStorageAccountName": {
+            "value": "sflogsappsonsf9837"
+        },
+        "sourceVaultValue": {
+            "value": "/subscriptions/c735ed96-144d-490a-92f3-ca9f122ee0de/resourceGroups/zyg-kv/providers/Microsoft.KeyVault/vaults/zyg-kv"
+        },
+        "certificateUrlValue": {
+            "value": "https://zyg-kv.vault.azure.cn/secrets/AppsOnSF/c426bd197a78419a9e420f210f43f070"
+        },
+        "certificateThumbprint": {
+            "value": "F30EEF3FE8AE23D7BC083ABE1814E6905C97587B"
+        },
+        "vmImageSku": {
+            "value": "Datacenter-Core-1803-with-Containers-smalldisk"
+        },
+        "vmImageOffer": {
+            "value": "WindowsServerSemiAnnual"
+        },
+        "nt0ephemeralStartPort": {
+            "value": 49152
+        },
+        "nt0ephemeralEndPort": {
+            "value": 65534
+        },
+        "nt0applicationStartPort": {
+            "value": 20000
+        },
+        "nt0applicationEndPort": {
+            "value": 30000
+        },
+        "nt0fabricTcpGatewayPort": {
+            "value": 19000
+        },
+        "nt0fabricHttpGatewayPort": {
+            "value": 19080
+        },
+        "nt0reverseProxyEndpointPort": {
+            "value": 19081
+        }
+    }
+}
